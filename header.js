@@ -15,7 +15,7 @@ function loadHeader() {
             <a href="subscription" class="hover:text-blue-600 transition-colors py-2">구독방법</a>
             <a href="guide" class="hover:text-blue-600 transition-colors py-2">가이드</a>
             <a href="content" class="hover:text-blue-600 transition-colors py-2">명대사</a>
-            <a href="barogagi" class="hover:text-blue-600 transition-colors py-2">바로가기</a>
+            <a href="barogagi" class="hover:text-blue-600 transition-colors py-2">명장면</a>
           </nav>
           <div class="md:hidden flex items-center">
             <button id="mobile-menu-btn" class="text-gray-700 hover:text-black focus:outline-none p-2 rounded-md">
@@ -29,8 +29,8 @@ function loadHeader() {
       <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-4 space-y-2 text-sm font-semibold text-gray-700">
         <a href="subscription" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">구독방법</a>
         <a href="guide" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">가이드</a>
-        <a href="content" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명대사</a>
-        <a href="barogagi" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">바로가기</a>
+        <a href="content" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명대사 모음</a>
+        <a href="barogagi" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명장면 모음</a>
       </div>
     </header>
   `;
