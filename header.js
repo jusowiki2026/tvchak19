@@ -12,8 +12,8 @@ function loadHeader() {
              <a href="index.html"><span class="text-xl font-extrabold text-gray-900 tracking-tight">티비착</span></a>
           </div>
           <nav class="hidden md:flex space-x-8 text-sm font-bold text-gray-800">
-            <a href="subscription" class="hover:text-blue-600 transition-colors py-2">구독방법</a>
-            <a href="guide" class="hover:text-blue-600 transition-colors py-2">가이드</a>
+            <a href="subscribe.html" class="hover:text-blue-600 transition-colors py-2">구독방법</a>
+            <a href="guide.html" class="hover:text-blue-600 transition-colors py-2">가이드</a>
             <a href="content" class="hover:text-blue-600 transition-colors py-2">명대사</a>
             <a href="barogagi" class="hover:text-blue-600 transition-colors py-2">명장면</a>
           </nav>
@@ -27,8 +27,8 @@ function loadHeader() {
         </div>
       </div>
       <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-gray-100 px-4 pt-2 pb-4 space-y-2 text-sm font-semibold text-gray-700">
-        <a href="subscription" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">구독방법</a>
-        <a href="guide" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">가이드</a>
+        <a href="subscribe.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">구독방법</a>
+        <a href="guide.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">가이드</a>
         <a href="content" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명대사 모음</a>
         <a href="barogagi" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명장면 모음</a>
       </div>
