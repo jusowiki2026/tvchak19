@@ -53,7 +53,7 @@
 
             <!-- Subtitle Description Lines -->
             <div class="space-y-1 text-[#839bc8] font-medium text-xs sm:text-sm md:text-base leading-relaxed mb-8 max-w-2xl">
-                <p>티비착에서 인기 있는 작품들의 줄거리와 명대사를 확인해 보세요.</p>
+                <p>티비착에서 인기 있는 작품들의 상세 정보와 명대사를 확인해 보세요.</p>
             </div>
 
             <!-- CTA Action Buttons -->
@@ -78,14 +78,30 @@
                 <!-- 왼쪽 이미지 -->
                 <img src="https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=400&q=80" alt="영화 포스터" class="w-full md:w-44 h-64 object-cover rounded-xl border border-gray-100 flex-shrink-0 shadow-sm">
                 
-                <!-- 오른쪽 정보 (제목, 스토리, 링크) -->
+                <!-- 오른쪽 정보 영역 -->
                 <div class="flex flex-col flex-grow w-full">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 tracking-tight mb-3">
-                        인터스텔라 (Interstellar, 2014)
+                    <!-- 영화 제목 -->
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 tracking-tight mb-2">
+                        인터스텔라 (Interstellar)
                     </h2>
+                    
+                    <!-- 개봉일자, 주연, 평점 -->
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs md:text-sm text-gray-500 mb-4 pb-3 border-b border-gray-100">
+                        <span><strong class="text-gray-700 font-medium">개봉:</strong> 2014.11.06</span>
+                        <span class="text-gray-300">|</span>
+                        <span><strong class="text-gray-700 font-medium">주연:</strong> 매튜 맥커너히, 앤 헤서웨이</span>
+                        <span class="text-gray-300">|</span>
+                        <span class="flex items-center gap-1 text-amber-600 font-semibold">
+                            <i class="fa-solid fa-star text-xs"></i> 9.12
+                        </span>
+                    </div>
+
+                    <!-- 스토리 -->
                     <p class="text-xs md:text-sm text-gray-700 leading-relaxed mb-6">
                         세계 각국의 정부와 경제가 완전히 무너진 미래 시나리오. 지난 20세기에 범한 잘못으로 전 세계적인 식량 부족과 환경 파괴가 들이닥친다. 시공간에 새겨진 의문의 주름을 통해 인류가 살아남을 수 있는 새로운 행성을 찾아 우주로 떠나는 이들의 위대한 여정을 그린 SF 감동 대작입니다.
                     </p>
+
+                    <!-- 명대사 보러가기 링크 -->
                     <div class="mt-auto">
                         <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors">
                             명대사 보러가기 &gt;
@@ -99,12 +115,24 @@
                 <img src="https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&w=400&q=80" alt="영화 포스터" class="w-full md:w-44 h-64 object-cover rounded-xl border border-gray-100 flex-shrink-0 shadow-sm">
                 
                 <div class="flex flex-col flex-grow w-full">
-                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 tracking-tight mb-3">
-                        인셉션 (Inception, 2010)
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 tracking-tight mb-2">
+                        인셉션 (Inception)
                     </h2>
+                    
+                    <div class="flex flex-wrap items-center gap-x-3 gap-y-1 text-xs md:text-sm text-gray-500 mb-4 pb-3 border-b border-gray-100">
+                        <span><strong class="text-gray-700 font-medium">개봉:</strong> 2010.07.21</span>
+                        <span class="text-gray-300">|</span>
+                        <span><strong class="text-gray-700 font-medium">주연:</strong> 레오나르도 디카프리오, 조셉 고든 레빗</span>
+                        <span class="text-gray-300">|</span>
+                        <span class="flex items-center gap-1 text-amber-600 font-semibold">
+                            <i class="fa-solid fa-star text-xs"></i> 9.25
+                        </span>
+                    </div>
+
                     <p class="text-xs md:text-sm text-gray-700 leading-relaxed mb-6">
                         타인의 꿈에 들어가 생각을 훔치는 특수 보안요원 도크. 그녀에게 기업의 비밀을 훔치는 대신 완벽한 생각을 머릿속에 심어달라는 위험한 의뢰가 들어온다. 꿈 속의 꿈을 오가는 극한의 작전 속에서 현실과 비현실의 경계가 흔들리는 스릴 넘치는 액션 스릴러입니다.
                     </p>
+
                     <div class="mt-auto">
                         <a href="#" class="inline-flex items-center gap-1.5 text-sm font-semibold text-indigo-600 hover:text-indigo-800 transition-colors">
                             명대사 보러가기 &gt;
@@ -121,20 +149,6 @@
 
    <script src="header.js"></script>
    <script src="footer.js"></script>
- <!-- TOC Toggle Script -->
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        const toggleBtn = document.getElementById('toc-toggle-btn');
-        const tocContent = document.getElementById('toc-content');
-        const tocArrow = document.getElementById('toc-arrow');
 
-        if (toggleBtn && tocContent && tocArrow) {
-            toggleBtn.addEventListener('click', function() {
-                tocContent.classList.toggle('hidden');
-                tocArrow.classList.toggle('rotate-180');
-            });
-        }
-    });
-  </script>
 </body>
 </html>
