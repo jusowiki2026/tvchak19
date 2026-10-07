@@ -14,8 +14,8 @@ function loadHeader() {
           <nav class="hidden md:flex space-x-8 text-sm font-bold text-gray-800">
             <a href="subscribe.html" class="hover:text-blue-600 transition-colors py-2">구독방법</a>
             <a href="guide.html" class="hover:text-blue-600 transition-colors py-2">가이드</a>
-            <a href="content" class="hover:text-blue-600 transition-colors py-2">명대사</a>
-            <a href="barogagi" class="hover:text-blue-600 transition-colors py-2">명장면</a>
+            <a href="content.html" class="hover:text-blue-600 transition-colors py-2">명대사</a>
+            <a href="barogagi.html" class="hover:text-blue-600 transition-colors py-2">명장면</a>
           </nav>
           <div class="md:hidden flex items-center">
             <button id="mobile-menu-btn" class="text-gray-700 hover:text-black focus:outline-none p-2 rounded-md">
