@@ -12,8 +12,8 @@ function loadFooter() {
           <nav class="flex flex-wrap justify-center space-x-6 text-sm font-medium text-gray-600">
             <a href="subscribe.html" class="hover:text-blue-600 transition-colors">구독방법</a>
             <a href="guide.html" class="hover:text-blue-600 transition-colors">가이드</a>
-            <a href="content" class="hover:text-blue-600 transition-colors">콘텐츠</a>
-            <a href="barogagi" class="hover:text-blue-600 transition-colors">바로가기</a>
+            <a href="content.html" class="hover:text-blue-600 transition-colors">콘텐츠</a>
+            <a href="barogagi.html" class="hover:text-blue-600 transition-colors">바로가기</a>
           </nav>
         </div>
         <div class="mt-8 pt-6 border-t border-gray-100 text-center text-xs text-gray-400">
