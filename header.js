@@ -15,8 +15,8 @@ function loadHeader() {
             <a href="subscribe.html" class="hover:text-blue-600 transition-colors py-2">구독방법</a>
             <a href="guide.html" class="hover:text-blue-600 transition-colors py-2">가이드</a>
             <a href="famousscene.html" class="hover:text-blue-600 transition-colors py-2">명장면</a>
-            <a href="barogagi" class="hover:text-blue-600 transition-colors py-2">명대사</a>
-			<a href="barogagi" class="hover:text-blue-600 transition-colors py-2">최신 주소</a>
+            <a href="famousline.html" class="hover:text-blue-600 transition-colors py-2">명대사</a>
+			<a href="LatestURL.html" class="hover:text-blue-600 transition-colors py-2">최신 주소</a>
           </nav>
           <div class="md:hidden flex items-center">
             <button id="mobile-menu-btn" class="text-gray-700 hover:text-black focus:outline-none p-2 rounded-md">
@@ -31,8 +31,8 @@ function loadHeader() {
         <a href="subscribe.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">구독방법</a>
         <a href="guide.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">가이드</a>
         <a href="famousscene.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명장면 모음</a>
-        <a href="barogagi" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명대사 모음</a>
- 	   <a href="barogagi" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">최신 주소</a>
+        <a href="famousline.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">명대사 모음</a>
+ 	   <a href="LatestURL.html" class="block px-3 py-2 rounded-md hover:bg-gray-50 hover:text-blue-600">최신 주소</a>
       </div>
     </header>
   `;

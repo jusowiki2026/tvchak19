@@ -13,8 +13,8 @@ function loadFooter() {
             <a href="subscribe.html" class="hover:text-blue-600 transition-colors">구독방법</a>
             <a href="guide.html" class="hover:text-blue-600 transition-colors">가이드</a>
             <a href="famousscene.html" class="hover:text-blue-600 transition-colors">명장면</a>
-            <a href="content" class="hover:text-blue-600 transition-colors">명대사</a>
-            <a href="barogagi" class="hover:text-blue-600 transition-colors">바로가기</a>
+            <a href="famousline.html" class="hover:text-blue-600 transition-colors">명대사</a>
+            <a href="LatestURL.html" class="hover:text-blue-600 transition-colors">최신 주소</a>
           </nav>
         </div>
         <div class="mt-8 pt-6 border-t border-gray-100 text-center text-xs text-gray-400">
